@@ -1,0 +1,16 @@
+Lecture 6- Parallel Computing
+
+Moore's Law- reaching material limits
+    -need to come up with more efficient processing
+    
+Certain tasks harder in parallelism
+    -E.g.: print to screen
+        -Can't control which process finishes first
+        
+As you add more processors, communication between the processors must occur 
+    -i.e.: communication is not parallelizable
+   
+Use tuples to import many values into a function, and unpack them within a function
+    -ex: <args>
+        -could have position, velocity, mass, time step, etc
+    
